@@ -1,0 +1,18 @@
+name: AllOne
+main: AllOne.Main
+version: "1.0.0"
+api: "1.0.9"
+author: Bilal
+commands:
+  vanish:
+    description: Vanish aç/kapa (OP gerekli)
+    usage: /vanish
+  setbase:
+    description: Spawn noktasını ayarla (OP gerekli)
+    usage: /setbase
+  base:
+    description: Spawn noktasına ışınlan
+    usage: /base
+  ping:
+    description: Ping gösterir
+    usage: /ping

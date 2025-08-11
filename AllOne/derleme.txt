@@ -1,0 +1,5 @@
+javac -cp nukkit.jar -d bin src\AllOne\Main.java
+
+jar cf AllOne.jar -C bin .
+
+jar uf AllOne.jar plugin.yml
